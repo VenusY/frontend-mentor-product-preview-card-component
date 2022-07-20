@@ -1,0 +1,40 @@
+#main__category {
+  font-family: var(--ff-montserrat);
+  font-size: 0.8125rem;
+  color: var(--clr-dark-grayish-blue);
+  letter-spacing: 0.3em;
+}
+
+#main__perfume-name {
+  font-family: var(--ff-fraunces);
+  font-size: 2rem;
+  color: var(--clr-very-dark-blue);
+  line-height: 1;
+}
+
+#main__description {
+  font-family: var(--ff-montserrat);
+  font-size: 0.8125rem;
+  color: var(--clr-dark-grayish-blue);
+  line-height: 1.8;
+}
+
+#price-section__sale-price {
+  font-family: var(--ff-fraunces);
+  font-size: 2rem;
+  color: var(--clr-dark-cyan);
+}
+
+#price-section__original-price {
+  font-family: var(--ff-montserrat);
+  font-size: 0.8125rem;
+  color: var(--clr-dark-grayish-blue);
+  text-decoration: line-through;
+}
+
+#add-button__text {
+  font-family: var(--ff-montserrat);
+  font-size: 0.875rem;
+  font-weight: 700;
+  color: var(--clr-white);
+}

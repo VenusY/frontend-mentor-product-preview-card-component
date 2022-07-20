@@ -1,0 +1,17 @@
+@media screen and (max-width: 23.375rem) {
+  main {
+    height: auto;
+    padding: 1.5rem 0.75rem;
+  }
+
+  #card {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 23.4375rem) and (max-width: 50rem) and (max-height: 40.625rem) {
+  main {
+    height: auto;
+    padding: 5rem 0;
+  }
+}

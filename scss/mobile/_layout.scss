@@ -1,0 +1,56 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#card {
+  width: 21.5625rem;
+}
+
+#card__mobile-image {
+  width: 100%;
+}
+
+#card__desktop-image {
+  display: none;
+}
+
+#card__main {
+  padding: 0.875rem 1.5rem 1.5rem 1.5rem;
+}
+
+#main__category {
+  margin-bottom: 0.75rem;
+}
+
+#main__perfume-name {
+  margin-bottom: 0.875rem;
+}
+
+#main__description {
+  margin-bottom: 2.375rem;
+}
+
+#main__price-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.625rem;
+
+  #price-section__sale-price {
+    margin-right: 1.375rem;
+  }
+}
+
+#main__add-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 1rem 0;
+
+  #add-button__icon {
+    margin-right: 0.75rem;
+  }
+}
