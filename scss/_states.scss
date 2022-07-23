@@ -1,4 +1,12 @@
-#main__add-button:hover,
-#main__add-button:focus {
+#main__add-button {
+  transition: background 0.25s;
+}
+
+#main__add-button:hover {
   background: #1a4031;
+}
+
+#main__add-button:focus-visible {
+  background: #1a4031;
+  outline: dashed #3dd6ff;
 }
